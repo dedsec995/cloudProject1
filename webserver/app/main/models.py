@@ -14,7 +14,7 @@ class eMessage(mongodb.Document):
 class eInstance(mongodb.Document):
     chat_enabled = mongodb.BooleanField(default=True)
     homepage_title = mongodb.StringField(default='Lets Chat')
-    homepage_hex_color = mongodb.StringField(default='3F88C5')
+    homepage_hex_color = mongodb.StringField(default='7E7D96')
     media_file = mongodb.StringField(default='default1.jpg')
     media_file_is_default = mongodb.BooleanField(default=True)
     media_is_video = mongodb.BooleanField(default=False)
